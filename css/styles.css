@@ -50,47 +50,11 @@ nav>ul {
     gap: 8px;
     font-size: 14.9px;
     overflow: hidden;
-    /* position: relative; */
-}
-/* .nav-cont li::after{
-    content: "";
-    border-bottom: 1px solid #1877f2;
-    width: 0;
-    left: 0;
-} */
-/* .nav-cont>a::before {
-    content: "";
-    width: 100%;
-    border-bottom: 1px solid #1877f2;
-    position: absolute;
-    top: 52px;
-    left: 0;
-    transform: translate(-100%);
-    transition: 200ms;
-    transition-delay: 500ms;
-}
-.nav-cont a:hover::before {
-    transform: translate(0);
-}
-.nav-cont>a::after {
-    content: "";
-    width: 100%;
-    border-bottom: 1px solid #1877f2;
-    position: absolute;
-    top: 52px;
-    left: 0;
-    transform: translate(0%);
-    transition: 200ms;
     transition: 500ms;
-    visibility: hidden;
 }
-.nav-cont a:hover::after {
-    transform: translate(100%);
-    visibility: visible;
-} */
 
-nav a {
-    overflow: hidden;
+nav a:hover {
+    border-bottom: 1px solid #1877f2;
 }
 
 nav i {
